@@ -11,7 +11,7 @@ namespace Hefec.Studay.SampleMVC.Controllers
         public ActionResult Index()
         {
             string msg = string.Format(@"这世界，我来了");
-                ViewBag.Message = msg;
+            ViewBag.Message = msg;
             return View();
         }
 
